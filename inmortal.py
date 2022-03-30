@@ -11,11 +11,11 @@ class Yang():
         # Cuerpo del destructor
         print("Yang destruido")
 
-
+ 
 yin = Yin()     # instanciamos
 yang = Yang()   # instanciamos
-yin.yang = yang  #  Ying pasa a tener un atributo de la clase yang  
-# el recolector de basura es una entidad que monitoriza las áreas de memoria
+yin.yang = yang # Ying pasa a tener un atributo de la clase yang.  
+# El recolector de basura es una entidad que monitoriza las áreas de memoria
 # y las libera cuando ya no se hace ninguna referencia a ellas, ya sea por una
 # variable, un método, una clase, etc.
 
